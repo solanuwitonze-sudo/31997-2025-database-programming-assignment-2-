@@ -1,0 +1,27 @@
+oracle_pdb_assignment2_31997_uwitonze/
+│
+README.md
+│
+screenshots/
+   pdb_creation.png
+   user_creation.png
+   user_login.png
+   temporary_pdb_creation.png
+   temporary_pdb_deletion.png
+   oem_dashboard.png
+
+1. Assignment OverviewThis assignment focuses on Oracle Multitenant Architecture and Pluggable Database (PDB) administration. The objective is to create, configure, and manage PDBs, users, and Oracle Enterprise Manager (OEM), while documenting all activities professionally on GitHub.2. Oracle EnvironmentOracle Version: Oracle 19cOperating System: Windows/Linux (depending on lab setup)Tools Used: SQL*Plus, Oracle Enterprise
+Manager (OEM), GitHub
+3. Task DocumentationPDB Creation:
+Created PDB named uw_pdb_31997_2025.
+Verified open status and successful execution.User Creation:
+Created user solange_plsqlauca_31997_2025.
+Granted privileges (CREATE SESSION, CREATE TABLE, etc.).
+Verified login with screenshots.Temporary PDB:
+Created uw_to_delete_pdb_31997_2025.
+Verified existence, opened, then deleted.
+Confirmed removal with screenshots.OEM Configuration:
+Accessed Oracle Enterprise Manager.
+Captured dashboard showing environment, created PDB, and user details.4. Challenges and SolutionsFaced connection issues when opening PDB → solved by checking listener and service names.Password complexity errors → solved by using strong password
+format.
+5. Lessons LearnedGained practical skills in Oracle Multitenant Architecture.Learned how to manage PDB lifecycle (create, open, delete).Improved documentation and GitHub reporting skills.6. Integrity Statement"I confirm that this assignment represents my own practical work, screenshots, and documentation. All external resources consulted have been properly acknowledged."
